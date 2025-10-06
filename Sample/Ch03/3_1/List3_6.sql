@@ -1,2 +1,2 @@
 SELECT AVG(sale_price)
-  FROM Product;
+FROM Product;

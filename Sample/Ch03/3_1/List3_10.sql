@@ -1,2 +1,2 @@
 SELECT COUNT(DISTINCT product_type)
-  FROM Product;
+FROM Product;
