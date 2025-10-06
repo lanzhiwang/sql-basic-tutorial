@@ -1,3 +1,7 @@
-SELECT '��Ʒ' AS string, 38 AS number, '2009-02-24' AS date,
-       product_id, product_name
-  FROM Product;
+--常数的查询
+SELECT '商品' AS string,
+       38 AS number,
+       '2009-02-24' AS date,
+       product_id,
+       product_name
+FROM Product;

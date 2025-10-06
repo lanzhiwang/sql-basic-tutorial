@@ -1,4 +1,3 @@
 SELECT product_name, purchase_price
-  FROM Product
- WHERE product_type = '³ø·¿ÓÃ¾ß'
-    OR sale_price >= 3000;
+FROM Product
+WHERE product_type = 'åŽ¨æˆ¿ç”¨å…·' OR sale_price >= 3000;

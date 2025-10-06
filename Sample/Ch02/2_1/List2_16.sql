@@ -1,4 +1,6 @@
 SELECT DISTINCT product_id, purchase_price
-/* ±¾SELECTÓï¾ä,
-   »á´Ó½á¹ûÖÐÉ¾³ýÖØ¸´ÐÐ¡£*/
-  FROM Product;
+/*
+æœ¬ SELECT è¯­å¥,
+ä¼šä»Žç»“æžœä¸­åˆ é™¤é‡å¤è¡Œ
+*/
+FROM Product;

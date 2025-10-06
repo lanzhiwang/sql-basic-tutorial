@@ -1,3 +1,3 @@
 SELECT DISTINCT product_id, purchase_price
--- ��SELECT����ӽ����ɾ���ظ��С�
-  FROM Product;
+-- 本 SELECT 语句会从结果中删除重复行
+FROM Product;

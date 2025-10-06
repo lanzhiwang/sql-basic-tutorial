@@ -1,3 +1,3 @@
 SELECT product_name, purchase_price
-  FROM Product
- WHERE purchase_price <> 2800;
+FROM Product
+WHERE purchase_price <> 2800;
