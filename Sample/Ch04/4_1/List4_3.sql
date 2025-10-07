@@ -1,5 +1,8 @@
--- Ê¹ÓÃÁÐÇåµ¥
-INSERT INTO ProductIns (product_id, product_name, product_type, sale_price, purchase_price, regist_date) VALUES ('0005', '¸ßÑ¹¹ø', '³ø·¿ÓÃ¾ß', 6800, 5000, '2009-01-15');
+/*
 
--- ²»Ê¹ÓÃÁÐÇåµ¥
-INSERT INTO ProductIns VALUES ('0005', '¸ßÑ¹¹ø', '³ø·¿ÓÃ¾ß', 6800, 5000, '2009-01-15');
+INSERT INTO ProductIns (product_id, product_name, product_type, sale_price, purchase_price, regist_date)
+VALUES ('0005', 'é«˜åŽ‹é”… ', 'åŽ¨æˆ¿ç”¨å…·', 6800, 5000, '2009-01-15');
+
+*/
+
+INSERT INTO ProductIns VALUES ('0005', 'é«˜åŽ‹é”… ', 'åŽ¨æˆ¿ç”¨å…·', 6800, 5000, '2009-01-15');

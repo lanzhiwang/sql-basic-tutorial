@@ -1,14 +1,12 @@
 --MySQL
 START TRANSACTION;
 
-    -- тк╤╞TпТ╣доЗйш╣╔╪шоб╣В1000хут╙
     UPDATE Product
        SET sale_price = sale_price - 1000
-     WHERE product_name = 'тк╤╞TпТ';
+     WHERE product_name = 'Х©░Е┼╗TФ│╓';
 
-    -- TпТ╣доЗйш╣╔╪шио╦║1000хут╙
     UPDATE Product
        SET sale_price = sale_price + 1000
-     WHERE product_name = 'TпТ';
+     WHERE product_name = 'TФ│╓Х║╚';
 
 COMMIT;

@@ -1,5 +1,5 @@
 UPDATE Product
-   SET regist_date = '2009-10-10';
+SET regist_date = '2009-10-10';
 
--- 确认更新内容
+-- 确锟较革拷锟斤拷锟斤拷锟斤拷
 SELECT * FROM Product ORDER BY product_id;

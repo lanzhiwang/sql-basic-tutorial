@@ -1,3 +1,3 @@
 SELECT product_name, sale_price, purchase_price
-  FROM Product
+FROM Product
 ORDER BY product_id;

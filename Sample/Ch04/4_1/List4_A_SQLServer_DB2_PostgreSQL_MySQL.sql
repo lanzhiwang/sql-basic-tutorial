@@ -1,13 +1,4 @@
--- ¶àÐÐINSERT£¨OracleÖ®Íâ£©
-INSERT INTO ProductIns VALUES ('0002', '´ò¿×Æ÷', '°ì¹«ÓÃÆ·', 500, 320, '2009-09-11'),
-                              ('0003', 'ÔË¶¯TÐô', 'ÒÂ·þ', 4000, 2800, NULL),
-                              ('0004', '²Ëµ¶', '³ø·¿ÓÃ¾ß', 3000, 2800, '2009-09-20');
-
-
-
-/*
--- Í¨³£µÄINSERT
-INSERT INTO ProductIns VALUES ('0002', '´ò¿×Æ÷', '°ì¹«ÓÃÆ·', 500, 320, '2009-09-11');
-INSERT INTO ProductIns VALUES ('0003', 'ÔË¶¯TÐô', 'ÒÂ·þ', 4000, 2800, NULL);
-INSERT INTO ProductIns VALUES ('0004', '²Ëµ¶', '³ø·¿ÓÃ¾ß', 3000, 2800, '2009-09-20');
-*/
+INSERT INTO ProductIns (product_id, product_name, product_type, sale_price, purchase_price, regist_date)
+VALUES ('0002', 'æ‰“å­”å™¨', 'åŠžå…¬ç”¨å“', 500, 320, '2009-09-11'),
+       ('0003', 'è¿åŠ¨Tæ¤', 'è¡£æœ', 4000, 2800, NULL),
+       ('0004', 'èœåˆ€', 'åŽ¨æˆ¿ç”¨å…·', 3000, 2800, '2009-09-20');
