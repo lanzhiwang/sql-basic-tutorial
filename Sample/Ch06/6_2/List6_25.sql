@@ -1,3 +1,3 @@
 SELECT *
-  FROM SampleLike
- WHERE strcol LIKE 'abc__';
+FROM SampleLike
+WHERE strcol LIKE 'abc__';

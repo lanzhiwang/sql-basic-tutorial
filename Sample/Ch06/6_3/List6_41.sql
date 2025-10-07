@@ -1,7 +1,7 @@
 SELECT product_name,
-       CASE WHEN product_type = '衣服'    THEN 'A：' || product_type
-            WHEN product_type = '办公用品' THEN 'B：' || product_type
-            WHEN product_type = '厨房用具' THEN 'C：' || product_type
+       CASE WHEN product_type = '琛ｆ湇' THEN CONCAT('A: ', product_type)
+            WHEN product_type = '鍔炲叕鐢ㄥ搧' THEN CONCAT('B: ', product_type)
+            WHEN product_type = '鍘ㄦ埧鐢ㄥ叿' THEN CONCAT('C: ', product_type)
             ELSE NULL
-       END AS abc_product_type i
-  FROM Product;
+        END AS abc_product_type
+FROM Product;

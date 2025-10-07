@@ -1,7 +1,7 @@
---Oracle, SQL Server, DB2, PostgreSQL
+--SQL Server, DB2, PostgreSQL, MySQL
 SELECT product_id, product_name
-  FROM Product
-INTERSECT
+FROM Product
+EXCEPT
 SELECT product_id, product_name
-  FROM Product2
+FROM Product2
 ORDER BY product_id;

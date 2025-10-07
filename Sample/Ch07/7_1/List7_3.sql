@@ -1,5 +1,5 @@
 SELECT product_id, product_name
-  FROM Product
+FROM Product
 UNION
 SELECT product_id, product_name
-  FROM Product2;
+FROM Product2;

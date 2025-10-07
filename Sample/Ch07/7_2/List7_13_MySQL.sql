@@ -1,12 +1,13 @@
 --MySQL
--- DDL：创建表
 CREATE TABLE InventoryProduct
-( inventory_id	      CHAR(4)      NOT NULL,
-  product_id          CHAR(4)      NOT NULL,
-  inventory_quantity. INTEGER      NOT NULL,
-  PRIMARY KEY (inventory_id, product_id));
+  (
+    inventory_id       CHAR(4) NOT NULL,
+    product_id         CHAR(4) NOT NULL,
+    inventory_quantity INTEGER NOT NULL,
+    PRIMARY KEY (inventory_id, product_id)
+  );
 
--- DML：插入数据
+-- DML
 START TRANSACTION;
 
 INSERT INTO InventoryProduct (inventory_id, product_id, inventory_quantity) VALUES ('S001',	'0001',	0);
